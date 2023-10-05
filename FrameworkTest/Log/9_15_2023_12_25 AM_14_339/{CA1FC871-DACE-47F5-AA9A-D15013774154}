@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="details" type="S" value="{DE070D4C-EAEF-427F-8F34-E70660FBF291}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="LoginScreen [KeywordTests - LoginScreen]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="45184.0179064699"/>
+				<Prp name="end time" type="D" value="45184.0179851157"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="details" type="S" value="{0D7B23C0-9CD8-4E5F-AD66-718629C17763}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="NavToCommonTest"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="start time" type="D" value="45184.0179852315"/>
+				<Prp name="end time" type="D" value="45184.0184412847"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="details" type="S" value="{ED58265F-C41E-4A22-8EBC-4F46644B005E}"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="StartEdge [KeywordTests - StartEdge]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="45184.0175277662"/>
+				<Prp name="end time" type="D" value="45184.017906331"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

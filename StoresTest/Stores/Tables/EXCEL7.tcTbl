@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="EXCEL7">
+		<Source Object="Aliases.EXCEL.wndXLMAIN.XLDESK.EXCEL7">
+			<DataExtraction Type="OpticalTableRecognition" DetectionMode="ByCoordinates" SelectionPreference="NearestToCenter" HasHeader="True">
+				<Rectangle Left="46" Top="28" Right="568" Bottom="266" />
+			</DataExtraction>
+		</Source>
+		<Columns>
+			<Column>row_id</Column>
+			<Column>order_id order_date</Column>
+			<Column>ship_date</Column>
+			<Column>ship_mod</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">40098</Cell>
+				<Cell Type="String">CA-2014-A 11/11/2014</Cell>
+				<Cell Type="String">11/13/2014</Cell>
+				<Cell Type="String">First Class</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">26341</Cell>
+				<Cell Type="String">IN-2014-JF 2/5/2014</Cell>
+				<Cell Type="String">2/7/2014</Cell>
+				<Cell Type="String">Second Cla</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">25330</Cell>
+				<Cell Type="String">IN-2014-C 10/17/2014</Cell>
+				<Cell Type="String">10/18/2014</Cell>
+				<Cell Type="String">First Class</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">13524</Cell>
+				<Cell Type="String">ES-2014-K 1/28/2014</Cell>
+				<Cell Type="String">1/30/2014</Cell>
+				<Cell Type="String">First Class</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">47221</Cell>
+				<Cell Type="String">SG-2014-R 11/5/2014</Cell>
+				<Cell Type="String">11/6/2014</Cell>
+				<Cell Type="String">Same Day</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">22732</Cell>
+				<Cell Type="String">IN-2014-JN 6/28/2014</Cell>
+				<Cell Type="String">7/1/2014</Cell>
+				<Cell Type="String">Second Cla</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">30570</Cell>
+				<Cell Type="String">IN-2012-T 11/6/2012</Cell>
+				<Cell Type="String">11/8/2012</Cell>
+				<Cell Type="String">First Class</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

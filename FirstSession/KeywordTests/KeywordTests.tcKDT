@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="OpenCalc" key="{B14A2986-9F23-4C13-97C7-2F5ECDCDD6E3}" path="OpenCalc.tcKDTest" />
+		<child name="Calculation" key="{15156C07-7337-409C-A816-90FD1EC19E7B}" path="Calculation.tcKDTest" />
+		<child name="CloseCalc" key="{F101ADDD-FFFB-4EA2-BC5B-844E5B0B23F4}" path="CloseCalc.tcKDTest" />
+		<child name="ObjectSpy" key="{3B837FAB-7DD5-4213-A9B0-426D7DF9F2C0}" path="ObjectSpy.tcKDTest" />
+	</children>
+</Root>

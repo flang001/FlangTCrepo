@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{5C66D952-0B6C-4D8E-A053-43B736F41C26}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="parametrized">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="URL" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<BrowserParameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Browser" DefVarType="12" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Brow" />
+						<Parameter Name="Version" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Platform" DefVarType="12" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="pX86" />
+								<Value Type="1" Value="1" Text="pX64" />
+								<Value Type="1" Value="-1" Text="pAny" />
+							</Values>
+						</Parameter>
+					</BrowserParameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{AEBDE638-2DC7-4B48-85DB-47DA3F30E239}">
+		<Items>
+			<Variable Name="URL" Type="String" Local="False">
+				<DefValue StrValue="http://secure.smartbearsoftware.com/samples/TestComplete15/WebOrders/Login.aspx" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{D94EADD3-0FF1-4304-8B5A-90CA0356AB59}">
+		<Parameter0 Name="Brow" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Edge" Description="" />
+	</Parameters>
+</Root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="15.0">
+	<children>
+		<child name="Files" key="{A6D018E1-815B-49D3-B83E-86081CE2DB14}" type="Files" typeId="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" pluginName="Stores" path="Files.tcFiles" />
+		<child name="Regions" key="{D0DD368E-6251-4A2A-B9F9-4CA11636F5EB}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
+		<child name="WebTesting" key="{C1191A9B-EF01-4654-9A6F-1127C3960584}" type="Web Testing" typeId="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" pluginName="Web Checkpoints" path="WebTesting\WebTesting.tcWtc" />
+		<child name="Tables" key="{CF62E96F-69FC-42A7-B918-A1C053B83145}" type="Tables" typeId="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" pluginName="Stores" path="Tables\Tables.tcTbls" />
+		<child name="Objects" key="{7EB3F3DE-8D40-4F42-BE48-2E3C4DEA44FF}" type="Objects" typeId="{30501691-969F-4007-923F-BA4459E51E6A}" pluginName="Stores" path="Objects.tcObjects" />
+	</children>
+</Root>

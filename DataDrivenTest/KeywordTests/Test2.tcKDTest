@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{486C45E0-F432-4489-9DBE-CECDB356D387}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="DBQueries">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DBQueries">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="CBSA_Code">
+											<Values>
+												<Value Type="6" Value="CBSA_Code" Text="CBSA_Code" />
+												<Value Type="6" Value="CBSA_Medpar" Text="CBSA_Medpar" />
+												<Value Type="6" Value="CBSA_Definitive" Text="CBSA_Definitive" />
+												<Value Type="6" Value="CBSA_Final" Text="CBSA_Final" />
+												<Value Type="6" Value="CBSA_CJ" Text="CBSA_CJ" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DBQueries">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="CBSA_Medpar">
+											<Values>
+												<Value Type="6" Value="CBSA_Code" Text="CBSA_Code" />
+												<Value Type="6" Value="CBSA_Medpar" Text="CBSA_Medpar" />
+												<Value Type="6" Value="CBSA_Definitive" Text="CBSA_Definitive" />
+												<Value Type="6" Value="CBSA_Final" Text="CBSA_Final" />
+												<Value Type="6" Value="CBSA_CJ" Text="CBSA_CJ" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Test" Unit="Unit1">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{3BEB4D98-325D-446F-9BE4-DF9310BF4956}">
+		<Items>
+			<Variable Name="DBQueries" Type="DB Table" Local="False">
+				<DefValue Kind="{002E9C22-1E7F-4CEC-AFD0-5C1ACCB5BA1F}">
+					<ConnectionInfo ConnectionString="Provider=MSOLEDBSQL.1;Persist Security Info=False;User ID=fpaulson@guidehouse.com;Initial Catalog=HFMA_Analytics_QA;Data Source=uszu3sqldpv010.3521267df79e.database.windows.net;Initial File Name=&quot;&quot;;Use Encryption for Data=True;Server SPN=&quot;&quot;;Authentication=ActiveDirectoryInteractive;Access Token=&quot;&quot;" Query="SELECT TOP (10) [CBSA_Code]&#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;,[CBSA_Medpar]&#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;,[CBSA_Definitive]&#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;,[CBSA_Final]&#13;&#10;&#32;&#32;&#32;&#32;&#32;&#32;,[CBSA_CJ]&#13;&#10;&#32;&#32;FROM [HFMA_Analytics_QA].[Crosswalk].[CBSAMapping]" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{4A35FE0A-0C12-4FBB-9CD6-5ED637F63810}" />
+</Root>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{34D11B78-BFBB-4127-95E3-29503AB1C838}">
+				<TypeInfo Item0="{1D328184-8A18-4AAF-84D5-58800FF89B75}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{EF783F94-D8D8-4874-9C95-EE52AC297380}">
+						<TypeInfo Item0="{34161E95-C810-4EF6-8171-F11208980690}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageLearningAndDevelopmentTeamSt" Key="{1D456616-47A8-40DE-BA11-24499494DA74}">
+								<Image FileName="-2134353183" Left="11" Top="117" Right="1848" Bottom="1151" />
+								<TypeInfo Item0="{87243337-EB06-4FA4-9EEB-6B07433F6A19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://tfs.insidenci.com/DMCA/Learning%20and%20Development/_boards/board/t/Learning%20and%20Development%20Team/Stories" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkEdit" Key="{1AB69561-1573-4F26-97FD-4CABBBE17958}">
+										<Image FileName="-1437979862" Left="407" Top="635" Right="680" Bottom="678" />
+										<TypeInfo Item0="{6464040D-60AF-4395-81D8-7C78C806A510}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[4]//a[contains(@class, &apos;clickable-title-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;boardContainer&apos;]//div/div[4]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[4]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeButton" Key="{CED7218C-A44B-4E83-A1B0-DE2C73F9C915}">
+										<Image FileName="-1437979862" Left="407" Top="635" Right="680" Bottom="678" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[4]//a/span[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div/div[4]//a/span[contains(@class, &apos;clickable-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;boardContainer&apos;]//div[4]//div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//div[4]//div/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{EA4EF3A9-1DFB-44CA-83F2-ADE352F757B3}">
+										<Image FileName="448632602" Left="757" Top="395" Right="1083" Bottom="560" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/div[2]/div[contains(@class, &apos;board-tile-content&apos;)]/div[contains(@class, &apos;board-tile-content&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEdit2" Key="{18FBD305-E5A8-4F29-865B-5AF2A127CD46}">
+										<Image FileName="448632602" Left="769" Top="405" Right="1042" Bottom="448" />
+										<TypeInfo Item0="{6464040D-60AF-4395-81D8-7C78C806A510}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Learning &amp; Development Tracking (2023 July): Self-paced Learning&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div/div/div/div/a[contains(@class, &apos;clickable-title-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;boardContainer&apos;]//div[2]/div[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeButton2" Key="{0EC45828-9778-449E-AEE6-396B3B1287CD}">
+										<Image FileName="448632602" Left="769" Top="405" Right="1042" Bottom="448" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Learning &amp; Development Tracking (2023 July): Self-paced Learning&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTestcompleteSmartbearSoftwar" Key="{20FCB032-C0CF-437D-BE93-DF5FA514072F}">
+								<Image FileName="-433407106" Left="11" Top="117" Right="1848" Bottom="1150" />
+								<TypeInfo Item0="{87243337-EB06-4FA4-9EEB-6B07433F6A19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/product/testcomplete/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{66CF6907-9EB2-4770-9CC9-CE70DAF79665}">
+										<Image FileName="-433407106" Left="11" Top="117" Right="1826" Bottom="6384" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(@action, &apos;testcomplete&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionTestingMadeEasyAnyAppAny" Key="{9073C22E-F349-4531-95E9-9C97852916E6}">
+										<Image FileName="-433407106" Left="11" Top="297" Right="1826" Bottom="1385" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Testing Made Easy: Any App, Any Skill Level&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;bg-image-top&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTestingMadeEasyAnyAppAny" Key="{0D58C87E-A1C1-4EB9-9942-8C0617A6B466}">
+										<Image FileName="-433407106" Left="191" Top="441" Right="896" Bottom="597" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Testing Made Easy: Any App, Any Skill Level&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;txt-clr-neutral-13&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{E3AA3129-F2D7-4805-AA98-486936C9C13A}">
+										<Image FileName="1280235960" Left="191" Top="633" Right="896" Bottom="912" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section//div//h5[contains(@class, &apos;txt-clr-neutral-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//div//h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{EFAE5C88-6682-48C1-BF18-C9B79D69A097}">
+								<Image FileName="1880828263" Left="-11" Top="-11" Right="1931" Bottom="1151" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWebOrdersLogin" Key="{DE8519B5-BDE0-41F5-BF4E-66F4A161E672}">
+								<Image FileName="1880828263" Left="0" Top="106" Right="1837" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://secure.smartbearsoftware.com/samples/TestComplete15/WebOrders/Login.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{8F0E4B5C-032E-45F0-ADB5-31509F6D4CA5}">
+										<Image FileName="1880828263" Left="0" Top="106" Right="1838" Bottom="792" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Username:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;Login.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{3F381687-937D-4BC7-BF5F-C65D4DDAA7C7}">
+										<Image FileName="1880828263" Left="829" Top="580" Right="1050" Bottom="611" />
+										<TypeInfo Item0="{CD21B96C-7E54-42EF-90D1-6333938D71EA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Username:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{26D5AF7F-1130-4546-83F5-F5B7FEB11422}">
+										<Image FileName="-959715808" Left="829" Top="617" Right="1050" Bottom="648" />
+										<TypeInfo Item0="{CD21B96C-7E54-42EF-90D1-6333938D71EA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{3D6972D8-B0E4-4430-AE22-8CDACD5E81CE}">
+										<Image FileName="622766906" Left="829" Top="663" Right="954" Bottom="704" />
+										<TypeInfo Item0="{5A7F7B68-4A61-41E6-9B0C-6ABB0AC7F428}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@value=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTryOperationTestcompleteDocu" Key="{E914418D-EDA3-468D-94F6-65979D17FABA}">
+								<Image FileName="-1246862624" Left="11" Top="117" Right="1848" Bottom="1150" />
+								<TypeInfo Item0="{87243337-EB06-4FA4-9EEB-6B07433F6A19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://support.smartbear.com/testcomplete/docs/keyword-testing/reference/statements/try.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTryOperation" Key="{87DA7E0C-4B44-4780-A8AA-8D59E8BFB9C6}">
+										<Image FileName="-1246862624" Left="41" Top="288" Right="1826" Bottom="334" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Try Operation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTryCatchInTestcompleteSearch" Key="{1FF43D7E-67B7-46AC-887E-75E6E7394353}">
+								<Image FileName="-1368176665" Left="11" Top="179" Right="1849" Bottom="1150" />
+								<TypeInfo Item0="{87243337-EB06-4FA4-9EEB-6B07433F6A19}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.bing.com/search*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeBResults" Key="{9733DDFB-A5E2-4286-BCA0-4AF0EF1DF5C0}">
+										<Image FileName="-1368176665" Left="275" Top="436" Right="1344" Bottom="6745" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#b_results" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[contains(., &apos;holds code that is executed when an exception occurs within the&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main/ol" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{28000C30-8A65-4D78-A93C-5F7879634BBD}">
+										<Image FileName="-1368176665" Left="275" Top="436" Right="1344" Bottom="1268" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;The Try operation groups operations that may cause an error.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;b_top&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ol[@id=&apos;b_results&apos;]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{A903C908-8561-4C32-B40C-979A18F76F65}">
+										<Image FileName="-1368176665" Left="342" Top="493" Right="1277" Bottom="612" />
+										<TypeInfo Item0="{1833CD59-A0C4-47DB-8430-96E0F8996416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;d_ans&apos;]//p/strong" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/strong" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="EXCEL" Key="{D89EFDB9-C020-4BB3-B018-C13479F3E261}">
+						<TypeInfo Item0="{FCCD898E-1ED7-496D-90DB-13CF6EEE1FE3}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="EXCEL" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXLMAIN" Key="{CC5208A6-F8A4-4E11-8B84-6D05106EBA6E}">
+								<Image FileName="-1774987129" Left="0" Top="0" Right="1942" Bottom="1162" />
+								<TypeInfo Item0="{CC572473-BBF4-4295-A5CA-F9C5440589AB}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XLMAIN" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="global_superstore_2016.csv - Excel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="XLDESK" Key="{9182633C-F637-4C90-A167-A581B90A10B3}">
+										<Image FileName="-1774987129" Left="11" Top="293" Right="1931" Bottom="1118" />
+										<TypeInfo Item0="{036D75D2-3133-4BEB-B765-9DD14A52EBFB}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="XLDESK" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="EXCEL7" Key="{52B997A1-4A02-4E4D-B24F-E90A2BA814D7}">
+												<Image FileName="-1774987129" Left="11" Top="293" Right="1931" Bottom="1118" />
+												<TypeInfo Item0="{036D75D2-3133-4BEB-B765-9DD14A52EBFB}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="EXCEL7" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="global_superstore_2016.csv" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{EF783F94-D8D8-4874-9C95-EE52AC297380}">
+			<Child Name="pageLearningAndDevelopmentTeamSt" Owner="{1D456616-47A8-40DE-BA11-24499494DA74}">
+				<Child Name="linkEdit" Owner="{1AB69561-1573-4F26-97FD-4CABBBE17958}">
+					<Child Name="textnodeButton" Owner="{CED7218C-A44B-4E83-A1B0-DE2C73F9C915}" />
+				</Child>
+				<Child Name="panel" Owner="{EA4EF3A9-1DFB-44CA-83F2-ADE352F757B3}" />
+				<Child Name="linkEdit2" Owner="{18FBD305-E5A8-4F29-865B-5AF2A127CD46}">
+					<Child Name="textnodeButton2" Owner="{0EC45828-9778-449E-AEE6-396B3B1287CD}" />
+				</Child>
+			</Child>
+			<Child Name="pageTestcompleteSmartbearSoftwar" Owner="{20FCB032-C0CF-437D-BE93-DF5FA514072F}">
+				<Child Name="form" Owner="{66CF6907-9EB2-4770-9CC9-CE70DAF79665}">
+					<Child Name="sectionTestingMadeEasyAnyAppAny" Owner="{9073C22E-F349-4531-95E9-9C97852916E6}">
+						<Child Name="textnodeTestingMadeEasyAnyAppAny" Owner="{0D58C87E-A1C1-4EB9-9942-8C0617A6B466}" />
+						<Child Name="textnode" Owner="{E3AA3129-F2D7-4805-AA98-486936C9C13A}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{EFAE5C88-6682-48C1-BF18-C9B79D69A097}" />
+			<Child Name="pageWebOrdersLogin" Owner="{DE8519B5-BDE0-41F5-BF4E-66F4A161E672}">
+				<Child Name="formAspnetform" Owner="{8F0E4B5C-032E-45F0-ADB5-31509F6D4CA5}">
+					<Child Name="textboxUsername" Owner="{3F381687-937D-4BC7-BF5F-C65D4DDAA7C7}" />
+					<Child Name="passwordboxPassword" Owner="{26D5AF7F-1130-4546-83F5-F5B7FEB11422}" />
+					<Child Name="submitbuttonLogin" Owner="{3D6972D8-B0E4-4430-AE22-8CDACD5E81CE}" />
+				</Child>
+			</Child>
+			<Child Name="pageTryOperationTestcompleteDocu" Owner="{E914418D-EDA3-468D-94F6-65979D17FABA}">
+				<Child Name="textnodeTryOperation" Owner="{87DA7E0C-4B44-4780-A8AA-8D59E8BFB9C6}" />
+			</Child>
+			<Child Name="pageTryCatchInTestcompleteSearch" Owner="{1FF43D7E-67B7-46AC-887E-75E6E7394353}">
+				<Child Name="textnodeBResults" Owner="{9733DDFB-A5E2-4286-BCA0-4AF0EF1DF5C0}">
+					<Child Name="textnode" Owner="{28000C30-8A65-4D78-A93C-5F7879634BBD}">
+						<Child Name="textnode2" Owner="{A903C908-8561-4C32-B40C-979A18F76F65}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="EXCEL" Owner="{D89EFDB9-C020-4BB3-B018-C13479F3E261}">
+			<Child Name="wndXLMAIN" Owner="{CC5208A6-F8A4-4E11-8B84-6D05106EBA6E}">
+				<Child Name="XLDESK" Owner="{9182633C-F637-4C90-A167-A581B90A10B3}">
+					<Child Name="EXCEL7" Owner="{52B997A1-4A02-4E4D-B24F-E90A2BA814D7}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

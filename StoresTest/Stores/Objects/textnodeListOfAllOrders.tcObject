@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root identifier="Stores.Objects" version="2" mode="6" name="" className="" groupName="" objectType="0" selected="True">
+	<properties />
+	<children>
+		<child name="FindElement(&quot;//h2[contains(text(), &apos;List of All Orders&apos;)]&quot;)" className="FindElement(&quot;//h2[contains(text(), &apos;List of All Orders&apos;)]&quot;)" groupName="" objectType="0" selected="True">
+			<properties>
+				<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+			</properties>
+			<children />
+		</child>
+	</children>
+</Root>

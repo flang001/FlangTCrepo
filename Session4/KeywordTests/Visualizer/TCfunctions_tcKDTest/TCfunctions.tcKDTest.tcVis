@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{0205E9EB-A4BE-47CF-A8CC-6BE2BDF8B8B8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45169.3763657407" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page327702.btn" objectLeft="86" objectTop="268" objectRight="137" objectBottom="309" clickPointX="100" clickPointY="286" imageFileName="tcvi358577687227361.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45169.376412037" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page327702.btn2" objectLeft="203" objectTop="268" objectRight="254" objectBottom="309" clickPointX="226" clickPointY="284" imageFileName="tcvi358580968227363.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45169.3764236111" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page327702.btn3" objectLeft="86" objectTop="365" objectRight="137" objectBottom="406" clickPointX="110" clickPointY="391" imageFileName="tcvi358582187227364.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45169.3764351852" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page327702.btn4" objectLeft="261" objectTop="365" objectRight="312" objectBottom="453" clickPointX="283" clickPointY="412" imageFileName="tcvi358583546227365.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45169.3766782407" objectName="Aliases.win32calc.wndCalculator" objectLeft="0" objectTop="0" objectRight="339" objectBottom="482" clickPointX="-1" clickPointY="-1" imageFileName="tcvi358604500227367.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

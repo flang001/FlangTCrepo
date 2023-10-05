@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3B837FAB-7DD5-4213-A9B0-426D7DF9F2C0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45168.2505324074" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn" objectLeft="86" objectTop="268" objectRight="137" objectBottom="309" clickPointX="132" clickPointY="275" imageFileName="tcvi261305968227360.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45168.2505787037" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn2" objectLeft="144" objectTop="268" objectRight="195" objectBottom="309" clickPointX="174" clickPointY="284" imageFileName="tcvi261309609227361.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45168.2506018519" objectName="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn5" objectLeft="261" objectTop="365" objectRight="312" objectBottom="453" clickPointX="281" clickPointY="422" imageFileName="tcvi261312203227362.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="OpenEdge" key="{86AED460-92C2-4565-9D43-82B3F2A2120D}" path="OpenEdge.tcKDTest" />
+		<child name="CloseEdge" key="{E5D16DC2-0282-4807-9592-F66E61C7F131}" path="CloseEdge.tcKDTest" />
+		<child name="HomeValidation" key="{31040C4C-8C4D-4875-BFC9-C4142465FC89}" path="HomeValidation.tcKDTest" />
+	</children>
+</Root>

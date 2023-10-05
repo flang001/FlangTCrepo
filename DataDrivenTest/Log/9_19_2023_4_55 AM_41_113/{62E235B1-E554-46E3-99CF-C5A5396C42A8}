@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Albuquerque, NM"/>
+			<Prp name="date" type="D" value="45188.205346794"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="10900"/>
+			<Prp name="date" type="D" value="45188.2053477199"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Allentown-Bethlehem-Easton, PA-NJ"/>
+			<Prp name="date" type="D" value="45188.2053477662"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="10780"/>
+			<Prp name="date" type="D" value="45188.2053475"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{BDF14189-0F6D-4879-8A4A-59422540C8D0}"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Alexandria, LA"/>
+			<Prp name="date" type="D" value="45188.2053475579"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="10740"/>
+			<Prp name="date" type="D" value="45188.2053466319"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

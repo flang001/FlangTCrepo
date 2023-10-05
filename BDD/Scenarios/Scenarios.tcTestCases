@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\BDD_DemoProject\Scenarios\Edit_Order.feature" />
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\BDD_DemoProject\Scenarios\Login.feature" />
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\BDD_DemoProject\Scenarios\Logout.feature" />
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\BDD_DemoProject\Scenarios\Place_Order.feature" />
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\BDD_TestProject1\Scenarios\TestFeature1.feature" />
+	<Feature Path="E:\TestCompleteFrameWork\BDD_ProjectSuite\TestProject1\Scenarios\Description of the new feature1.feature" />
+</Scenarios>

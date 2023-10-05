@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{1CC12673-5A56-4270-B963-02D4CDC788DE}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45176.4309375" objectName="Aliases.browser.pageWebOrdersLogin.formAspnetform.textboxUsername" objectLeft="829" objectTop="580" objectRight="1050" objectBottom="611" clickPointX="838" clickPointY="598" imageFileName="tcvi96808759378120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45176.4309722222" objectName="Aliases.browser.pageWebOrdersLogin.formAspnetform.passwordboxPassword" objectLeft="829" objectTop="617" objectRight="1050" objectBottom="648" clickPointX="866" clickPointY="636" imageFileName="tcvi96809101578122.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45176.4309953704" objectName="Aliases.browser.pageWebOrdersLogin.formAspnetform.passwordboxPassword" objectLeft="829" objectTop="617" objectRight="1050" objectBottom="648" clickPointX="-1" clickPointY="-1" imageFileName="tcvi96809248478123.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45176.4310069444" objectName="Aliases.browser.pageWebOrdersLogin.formAspnetform.submitbuttonLogin" objectLeft="829" objectTop="663" objectRight="954" objectBottom="704" clickPointX="888" clickPointY="693" imageFileName="tcvi96809412578124.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

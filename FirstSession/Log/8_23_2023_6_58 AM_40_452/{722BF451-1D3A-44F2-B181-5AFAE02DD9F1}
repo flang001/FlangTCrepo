@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="45161.290746331"/>
+				<Prp name="end time" type="D" value="45161.2907717593"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="OpenCalc [KeywordTests - OpenCalc]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{37C4EAC4-12AC-47FE-AC15-CAD16BCA2DC3}"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="45161.2907718866"/>
+				<Prp name="end time" type="D" value="45161.2907839236"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Calculation [KeywordTests - Calculation]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{9F1ED7BE-B6F7-4E0D-AF2A-4924F6FB90F4}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="start time" type="D" value="45161.2907840741"/>
+				<Prp name="end time" type="D" value="45161.2907875926"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="CloseCalc [KeywordTests - CloseCalc]"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{EEA9FA4D-CEAB-4221-B037-39A49B23B26F}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

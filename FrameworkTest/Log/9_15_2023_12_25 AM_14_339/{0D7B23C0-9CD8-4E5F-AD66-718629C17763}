@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="details" type="S" value="{B19E8065-6AB0-4482-836B-5991C1A08F0B}"/>
+				<Prp name="start time" type="D" value="45184.0179852315"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="name" type="S" value="Keyword Test Log [NavToCommonTest]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="45184.0180015162"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="details" type="S" value="{299F2CA7-057D-4A29-B55A-9D459893FD85}"/>
+				<Prp name="start time" type="D" value="45184.0180015278"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="name" type="S" value="OrderValidation [KeywordTests - OrderValidation]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="45184.0184398611"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="details" type="S" value=""/>
+				<Prp name="start time" type="D" value="45184.0184398611"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="name" type="S" value="The execution process was interrupted."/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="end time" type="D" value="45184.0184398611"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Components">
+			<child name="NavToCommonTest" key="{DE8AA5F8-D5B2-49D7-87EC-8BBCE4C3D93F}" path="NavToCommonTest.tcKDTest" />
+		</folder>
+		<folder name="Pages">
+			<folder name="BasePage">
+				<child name="LogOut" key="{EFDA02AF-3A58-43C6-8CA8-F797AB4883F5}" path="LogOut.tcKDTest" />
+			</folder>
+			<folder name="LoginPage">
+				<child name="LoginScreen" key="{E6118078-6E56-4187-A4A9-9289174346AB}" path="LoginScreen.tcKDTest" />
+			</folder>
+			<folder name="Orders">
+				<child name="OrderValidation" key="{AEE4D8E8-6EBF-4AD4-ACEB-DF6BFD52F3E5}" path="OrderValidation.tcKDTest" />
+			</folder>
+			<folder name="ViewAllProducts">
+				<child name="ViewAllProductsValidation" key="{FE3CDC90-DDBC-472F-AB67-62659F188B06}" path="ViewAllProductsValidation.tcKDTest" />
+			</folder>
+			<folder name="ViewAllOrders">
+				<child name="ViewAllOrdersValidation" key="{50FE740B-F6E2-486C-A3BE-485ABB060271}" path="ViewAllOrdersValidation.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Test" />
+		<folder name="Util browser">
+			<child name="StartEdge" key="{F99D130F-8102-4F8C-B1E1-8668B32922AF}" path="StartEdge.tcKDTest" />
+			<child name="CloseEdge" key="{9DA5BB3E-7EBD-440E-8AC0-BC85748DC2AD}" path="CloseEdge.tcKDTest" />
+		</folder>
+	</children>
+</Root>

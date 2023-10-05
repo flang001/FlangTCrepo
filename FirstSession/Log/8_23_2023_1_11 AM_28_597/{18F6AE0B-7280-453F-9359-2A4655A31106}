@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn4"/>
+					<Prp name="object right" type="I" value="78"/>
+					<Prp name="click point x" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2579992014"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="27"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="294"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn4"/>
+					<Prp name="object right" type="I" value="78"/>
+					<Prp name="click point x" type="I" value="70"/>
+					<Prp name="image file name" type="S" value="tcvi-1621409171212085.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2463541667"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="27"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn4&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1).Window(&quot;CalcFrame&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;&quot;, 3))"/>
+			<Prp name="date" type="D" value="45161.0496665509"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object top" type="I" value="365"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="409"/>
+					<Prp name="object bottom" type="I" value="453"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn5"/>
+					<Prp name="object right" type="I" value="312"/>
+					<Prp name="click point x" type="I" value="286"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2580008449"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="261"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object top" type="I" value="365"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="408"/>
+					<Prp name="object bottom" type="I" value="453"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn5"/>
+					<Prp name="object right" type="I" value="312"/>
+					<Prp name="click point x" type="I" value="300"/>
+					<Prp name="image file name" type="S" value="tcvi-1621406734212086.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2463888889"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="261"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn5&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1).Window(&quot;CalcFrame&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;&quot;, 28))"/>
+			<Prp name="date" type="D" value="45161.0496679398"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn"/>
+					<Prp name="object right" type="I" value="137"/>
+					<Prp name="click point x" type="I" value="111"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2579926968"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="86"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="291"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn"/>
+					<Prp name="object right" type="I" value="137"/>
+					<Prp name="click point x" type="I" value="131"/>
+					<Prp name="image file name" type="S" value="tcvi-1621422093212080.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2462037037"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="86"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1).Window(&quot;CalcFrame&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;&quot;, 9))"/>
+			<Prp name="date" type="D" value="45161.0496616435"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Windows\System32\win32calc.exe&quot; started."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The process ID is 47112."/>
+			<Prp name="date" type="D" value="45161.0496490162"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn3"/>
+					<Prp name="object right" type="I" value="254"/>
+					<Prp name="click point x" type="I" value="228"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2579975116"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="203"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="297"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn3"/>
+					<Prp name="object right" type="I" value="254"/>
+					<Prp name="click point x" type="I" value="226"/>
+					<Prp name="image file name" type="S" value="tcvi-1621419250212082.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2462384259"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="203"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn3&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1).Window(&quot;CalcFrame&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;&quot;, 20))"/>
+			<Prp name="date" type="D" value="45161.0496648495"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{124365C2-DC21-4522-B223-193CBA663D17}"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator"/>
+					<Prp name="object right" type="I" value="339"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2580033449"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="482"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator"/>
+					<Prp name="object right" type="I" value="339"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="tcvi-1621399390212087.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2464699074"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="message" type="S" value="The 'Calculator' window was closed."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1))"/>
+			<Prp name="date" type="D" value="45161.0496713426"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="288"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn2"/>
+					<Prp name="object right" type="I" value="195"/>
+					<Prp name="click point x" type="I" value="169"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2579960417"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="144"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object top" type="I" value="268"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="289"/>
+					<Prp name="object bottom" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn2"/>
+					<Prp name="object right" type="I" value="195"/>
+					<Prp name="click point x" type="I" value="170"/>
+					<Prp name="image file name" type="S" value="tcvi-1621420984212081.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="45161.2462152778"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object left" type="I" value="144"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.win32calc.wndCalculator.CalcFrame.page32770.btn2&#xA;(Sys.Process(&quot;win32calc&quot;).Window(&quot;CalcFrame&quot;, &quot;Calculator&quot;, 1).Window(&quot;CalcFrame&quot;, &quot;&quot;, 1).Window(&quot;#32770&quot;, &quot;&quot;, 2).Window(&quot;Button&quot;, &quot;&quot;, 14))"/>
+			<Prp name="date" type="D" value="45161.0496633102"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

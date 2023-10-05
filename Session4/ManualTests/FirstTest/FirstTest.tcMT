@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{1C954CF7-8390-4813-A62A-51A10ADBF033}" version="1400" key="{3AB2E83C-3EB7-49F5-A421-3BFF0C338A73}" typeId="{1C954CF7-8390-4813-A62A-51A10ADBF033}">
+	<config nodeName="FirstTest">
+		<stepInfo id="TEST_0" enabled="True" key="{56BC2226-EC57-421E-9C34-B47564056B96}" contentKey="{E2D18B9D-F19F-48CA-AF8E-315701181E3E}" caption="Home page" description="" notes="" iconFileName="" kdtMoniker="KDT\{0205E9EB-A4BE-47CF-A8CC-6BE2BDF8B8B8}" kdtConvertFrom="{C669E976-BFDA-422D-8448-BE32504E1240}" instructionsURL="Manual Test.htm" xmlFileName="" xslFileName="" />
+		<resume enabled="False" stepID="" />
+	</config>
+	<testData />
+	<data />
+</Root>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{B0BCBEF4-C9C8-44B0-8EA8-E53ABCF600BF}"/>
+			</Node>
+			<Node name="{379695d7-12d8-4836-8ed9-12755a2a10c3}">
+				<Prp name="relpath" type="S" value="BDD\BDD.mds.tcLS"/>
+			</Node>
+			<Node name="{3ad360b0-e023-4d5f-a58a-e05a403de05e}">
+				<Prp name="relpath" type="S" value="Mint\WebApp.mds.tcLS"/>
+			</Node>
+			<Node name="{5b16fdab-8b12-4801-bce0-c014af0216a6}">
+				<Prp name="relpath" type="S" value="FrameWork\FrameWork.mds.tcLS"/>
+			</Node>
+			<Node name="{6b25491f-af42-4770-9a82-9980e37f427a}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
+			<Node name="{945c0d0a-e7d0-4506-a0dd-b25a16c82342}">
+				<Prp name="relpath" type="S" value="Session4\Session4.mds.tcLS"/>
+			</Node>
+			<Node name="{9e9db0ef-58a5-4d62-bba2-84fa8bc816a6}">
+				<Prp name="relpath" type="S" value="DataDrivenTest\DataDrivenTest.mds.tcLS"/>
+			</Node>
+			<Node name="{a286ebf1-d8af-4850-8bfb-b3d3af2e5b9c}">
+				<Prp name="relpath" type="S" value="StoresTest\StoresTest.mds.tcLS"/>
+			</Node>
+			<Node name="{b0bcbef4-c9c8-44b0-8ea8-e53abcf600bf}">
+				<Prp name="relpath" type="S" value="FirstSession\FirstSession.mds.tcLS"/>
+			</Node>
+			<Node name="{dd0e07d8-07a9-4d19-aeb5-6ee9827f0e3e}">
+				<Prp name="relpath" type="S" value="FrameworkTest\FrameworkTest.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{9B8F9C98-DE7A-4A55-B687-501BF52C4196}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Notepad">
+			<child name="SaveNotePad" key="{2F6D343B-3437-4350-BA07-A77431021314}" path="SaveNotePad.tcKDTest" />
+		</folder>
+		<child name="TCfunctions" key="{0205E9EB-A4BE-47CF-A8CC-6BE2BDF8B8B8}" path="TCfunctions.tcKDTest" />
+		<child name="Test1" key="{0BDA1E41-7418-4E94-ABFD-F453C47BADBF}" path="Test1.tcKDTest" />
+	</children>
+</Root>

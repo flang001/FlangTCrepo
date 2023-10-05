@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{5117258A-8727-4A43-AE29-3F47F07D0F51}">
+	<children>
+		<child name="FirstSession" key="{B0BCBEF4-C9C8-44B0-8EA8-E53ABCF600BF}" path="FirstSession\FirstSession.mds" />
+		<child name="TestProject1" key="{6B25491F-AF42-4770-9A82-9980E37F427A}" path="TestProject1\TestProject1.mds" />
+		<child name="Session4" key="{945C0D0A-E7D0-4506-A0DD-B25A16C82342}" path="Session4\Session4.mds" />
+		<child name="WebApp" key="{3AD360B0-E023-4D5F-A58A-E05A403DE05E}" path="Mint\WebApp.mds" />
+		<child name="StoresTest" key="{A286EBF1-D8AF-4850-8BFB-B3D3AF2E5B9C}" path="StoresTest\StoresTest.mds" />
+		<child name="FrameWork" key="{5B16FDAB-8B12-4801-BCE0-C014AF0216A6}" path="FrameWork\FrameWork.mds" />
+		<child name="FrameworkTest" key="{DD0E07D8-07A9-4D19-AEB5-6EE9827F0E3E}" path="FrameworkTest\FrameworkTest.mds" />
+		<child name="DataDrivenTest" key="{9E9DB0EF-58A5-4D62-BBA2-84FA8BC816A6}" path="DataDrivenTest\DataDrivenTest.mds" />
+		<child name="BDD" key="{379695D7-12D8-4836-8ED9-12755A2A10C3}" path="BDD\BDD.mds" />
+	</children>
+	<testItems key="{1A3B1FED-AED1-408E-9B9B-532E4D9DFECD}">
+		<children>
+			<testItem key="{B0BCBEF4-C9C8-44B0-8EA8-E53ABCF600BF}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{6B25491F-AF42-4770-9A82-9980E37F427A}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{945C0D0A-E7D0-4506-A0DD-B25A16C82342}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{3AD360B0-E023-4D5F-A58A-E05A403DE05E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A286EBF1-D8AF-4850-8BFB-B3D3AF2E5B9C}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{5B16FDAB-8B12-4801-BCE0-C014AF0216A6}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DD0E07D8-07A9-4D19-AEB5-6EE9827F0E3E}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{9E9DB0EF-58A5-4D62-BBA2-84FA8BC816A6}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{379695D7-12D8-4836-8ED9-12755A2A10C3}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{E35FCC11-C497-40E9-B3F5-CA70E9C109C5}" />
+	<analysis key="{D1498385-97BB-4C82-9927-FE2425A957A9}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

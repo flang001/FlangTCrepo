@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{F57E13C5-95C5-4DC4-BE5A-9A456AE18F15}" version="1400" key="{99754CFC-D20D-4D52-9232-A338B61A42ED}" typeId="{F57E13C5-95C5-4DC4-BE5A-9A456AE18F15}">
+	<config nodeName="ManualTests" />
+	<testData />
+	<data />
+	<children>
+		<child key="{6F1F2A23-A52A-4D02-94DB-1D1FEEBF046C}" path="ManualTest1\ManualTest1.tcMT" />
+	</children>
+</Root>

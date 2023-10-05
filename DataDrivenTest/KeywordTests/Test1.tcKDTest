@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{650EECB3-965D-41C5-8836-9E97ADC625A4}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="Table">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+								<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Table">
+									<ArrayIndexes LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Name">
+											<Values>
+												<Value Type="6" Value="Name" Text="Name" />
+												<Value Type="6" Value="Email" Text="Email" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Row" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="Rowcount" />
+									</ArrayIndexes>
+								</Parameter>
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{F7D2AF2F-1F1D-4ABC-A34E-8A0A11E3341E}">
+		<Items>
+			<Variable Name="Table" Type="Table" Local="False">
+				<DefValue RowCount="3" ColumnCount="2">
+					<Columns ColumnName0="Name" ColumnName1="Email" />
+					<Row No="0" Cell0="Albin" Cell1="albin@gmail.com" />
+					<Row No="1" Cell0="Jibil" Cell1="jibil@gmail.com" />
+					<Row No="2" Cell0="Anu" Cell1="anu@gmail.com" />
+				</DefValue>
+			</Variable>
+			<Variable Name="Rowcount" Type="Integer" Local="False">
+				<DefValue IntValue="0" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{6FE14865-9492-4EC5-A490-309D0DEB068E}" />
+</Root>

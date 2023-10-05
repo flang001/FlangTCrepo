@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A97DB5B2-C2BF-4BDE-9F24-A9BBF8246B7E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{D0F59C26-A37B-4EF4-BEEC-A07BC0FF3DC1}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageRememberTheMilkOnlineToDoLis" Key="{6F0B7F98-97E6-42EF-BAAD-297A59419250}">
+								<Image FileName="-2038663564" Left="0" Top="106" Right="1837" Bottom="1139" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.rememberthemilk.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerTheSmartToDoAppForBusy" Key="{F5E38E3C-84CE-4118-B06D-47AC25317869}">
+										<Image FileName="-2038663564" Left="0" Top="277" Right="1815" Bottom="598" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(., &apos;The smart to-do app for busy people.&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTheSmartToDoAppForBusy" Key="{C7597707-C2D2-494E-BDE4-BB50074C32DA}">
+										<Image FileName="-2038663564" Left="239" Top="382" Right="1577" Bottom="455" />
+										<TypeInfo Item0="{AA40CBC1-7616-4B1E-8813-AA6EC1FEB839}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;The smart to-do app for busy people.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navClear" Key="{91B26D88-5AD1-4FE9-BB7C-5F803054B3AA}">
+										<Image FileName="805103972" Left="0" Top="106" Right="1815" Bottom="277" />
+										<Selectors>
+											<Selector>
+												<Value Value="nav[contains(., &apos;clear&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTour" Key="{B9FF035E-8E7C-4E2A-B541-94C9FAF00417}">
+										<Image FileName="805103972" Left="743" Top="169" Right="1612" Bottom="219" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Tour&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWhatSNew" Key="{8A863A23-7895-43D0-8F9E-BFA45790A71E}">
+										<Image FileName="805103972" Left="845" Top="169" Right="1020" Bottom="217" />
+										<TypeInfo Item0="{AA40CBC1-7616-4B1E-8813-AA6EC1FEB839}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[2]/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUpgrade" Key="{06764CAC-1CED-4318-A264-7160E43D330E}">
+										<Image FileName="-1097080957" Left="1020" Top="169" Right="1163" Bottom="217" />
+										<TypeInfo Item0="{AA40CBC1-7616-4B1E-8813-AA6EC1FEB839}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHelp" Key="{C334630C-EC8E-4E5D-87F1-FEF17759E0A4}">
+										<Image FileName="1339466004" Left="1163" Top="169" Right="1266" Bottom="217" />
+										<TypeInfo Item0="{AA40CBC1-7616-4B1E-8813-AA6EC1FEB839}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTour" Key="{BA340513-AE52-4772-91A0-A447EAD63438}">
+										<Image FileName="1562789591" Left="743" Top="169" Right="845" Bottom="217" />
+										<TypeInfo Item0="{AA40CBC1-7616-4B1E-8813-AA6EC1FEB839}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{0EB6F8CA-09BF-4E73-A448-BED2A0337773}">
+								<Image FileName="-2038663564" Left="-11" Top="-11" Right="1931" Bottom="1151" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageRememberTheMilkHelp" Key="{E28D083E-F44E-48C6-BAC8-32F94B731113}">
+								<Image FileName="-1201880854" Left="11" Top="117" Right="1848" Bottom="1150" />
+								<TypeInfo Item0="{912DAFA8-FB1E-413D-847E-0D4CD93600E7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.rememberthemilk.com/help/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navClear" Key="{3F5C1F28-5C1F-4353-BB12-2FB821EC1825}">
+										<Image FileName="-1201880854" Left="11" Top="117" Right="1826" Bottom="288" />
+										<TypeInfo Item0="{C8E138FF-E844-4EB4-A120-363A6056792B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="nav[contains(., &apos;clear&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTour" Key="{CAB7922E-6DE5-4761-B035-611C6F5F7860}">
+										<Image FileName="-1201880854" Left="754" Top="180" Right="1623" Bottom="230" />
+										<TypeInfo Item0="{C8E138FF-E844-4EB4-A120-363A6056792B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Tour&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;navbar-right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkHelp" Key="{FC10B17C-7BF0-4F25-9F6A-9E1164CF09B7}">
+										<Image FileName="-1201880854" Left="1174" Top="180" Right="1277" Bottom="228" />
+										<TypeInfo Item0="{D6CEB950-DD81-4920-BC85-A01498E3B952}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{D0F59C26-A37B-4EF4-BEEC-A07BC0FF3DC1}">
+			<Child Name="pageRememberTheMilkOnlineToDoLis" Owner="{6F0B7F98-97E6-42EF-BAAD-297A59419250}">
+				<Child Name="headerTheSmartToDoAppForBusy" Owner="{F5E38E3C-84CE-4118-B06D-47AC25317869}">
+					<Child Name="textnodeTheSmartToDoAppForBusy" Owner="{C7597707-C2D2-494E-BDE4-BB50074C32DA}" />
+				</Child>
+				<Child Name="navClear" Owner="{91B26D88-5AD1-4FE9-BB7C-5F803054B3AA}">
+					<Child Name="textnodeTour" Owner="{B9FF035E-8E7C-4E2A-B541-94C9FAF00417}">
+						<Child Name="linkWhatSNew" Owner="{8A863A23-7895-43D0-8F9E-BFA45790A71E}" />
+						<Child Name="linkUpgrade" Owner="{06764CAC-1CED-4318-A264-7160E43D330E}" />
+						<Child Name="linkHelp" Owner="{C334630C-EC8E-4E5D-87F1-FEF17759E0A4}" />
+						<Child Name="linkTour" Owner="{BA340513-AE52-4772-91A0-A447EAD63438}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{0EB6F8CA-09BF-4E73-A448-BED2A0337773}" />
+			<Child Name="pageRememberTheMilkHelp" Owner="{E28D083E-F44E-48C6-BAC8-32F94B731113}">
+				<Child Name="navClear" Owner="{3F5C1F28-5C1F-4353-BB12-2FB821EC1825}">
+					<Child Name="textnodeTour" Owner="{CAB7922E-6DE5-4761-B035-611C6F5F7860}">
+						<Child Name="linkHelp" Owner="{FC10B17C-7BF0-4F25-9F6A-9E1164CF09B7}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
